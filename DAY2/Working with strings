@@ -1,0 +1,15 @@
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+
+      String pharse="Hello Thanya";
+      System.out.println( pharse.toUpperCase());
+      System.out.println( pharse.toLowerCase());
+      System.out.println( pharse.length());
+      System.out.println( pharse.contains("Hello"));
+      System.out.println( pharse.charAt(1));
+      System.out.println( pharse.indexOf("T"));
+      System.out.println( pharse.substring(6));
+    }
+}
