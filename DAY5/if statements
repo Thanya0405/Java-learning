@@ -1,0 +1,12 @@
+public class App {
+    public static void main(String[] args) {
+     boolean isMale=true;
+     boolean isTall=true;
+     if(isMale && isTall){
+      System.out.println("you are tall male");
+
+     }else{
+      System.out.println("you are not male and tall");
+     }
+    }
+}
